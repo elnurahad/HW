@@ -1,12 +1,12 @@
 import argparse
 
 def copy_file(input_file, output_file, to_uppercase):
-    with open(input_file, 'r') as infile:
+    with open(input_file, 'r', encoding='utf-8') as infile:
         content = infile.read()
         if to_uppercase:
             content = content.upper()
         
-    with open(output_file, 'w') as outfile:
+    with open(output_file, 'w', encoding='utf-8') as outfile:
         outfile.write(content)
 
 def main():
