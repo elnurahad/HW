@@ -1,3 +1,9 @@
+#В базе данных ich_edit три таблицы. Users с полями (id, name, age), 
+#Products с полями (pid, prod, quantity) и Sales с полями (sid, id, pid).
+#Программа должна запросить у пользователя название таблицы и вывести все ее строки или сообщение, 
+#что такой таблицы нет.
+
+
 import mysql.connector
 from config import dbconfig, db_info  
 
