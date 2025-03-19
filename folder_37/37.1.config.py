@@ -4,7 +4,7 @@ dbconfig = {'host': 'ich-edit.edu.itcareerhub.de',
             'database': 'ich_edit' }
 
 db_info = {
-    "users": ["id", "name", "age"],
-    "product": ["pid", "prod", "quantity"],
-    "sales": ["sid", "pid", "id"]
+    "Users": ["id", "name", "age"],
+    "Product": ["pid", "prod", "quantity"],
+    "Sales": ["sid", "pid", "id"]
 }
